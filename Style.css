@@ -1,0 +1,479 @@
+
+/* for head */
+/* font-family: 'Prata', serif; */
+
+/* for body */
+/* font-family: 'Inter', sans-serif; */
+
+/* for name logo on header */
+body
+{
+    background-color: black;
+
+    margin-left:0px;
+    margin-right:0px; 
+    margin-bottom:0px;
+    margin-top:30px;
+    
+    
+}
+#Head
+{
+    display: flex;
+    /* width: 100vw; */
+    align-items: baseline;
+    /* justify-content responsible for horizontal alignment */
+    justify-content: space-between;
+    padding-left:10vw;
+    padding-right:10vw;
+   
+}
+#headlogo1
+{
+    /* margin: 0px 0px; */
+    font-family: 'Prata', serif; 
+    color:white;
+
+    
+    
+}
+
+/* for navbar */
+.navb{
+    display:inline-block;
+    justify-content: space-around;
+    text-decoration: none;
+    color:gray;
+    font-family: 'Inter', sans-serif;
+    padding : 0px 10px;  
+}
+#gtbutton{
+    background-color:#ffd700;
+    height:40px;
+    width:120px;
+    font-size: 15px;
+    font-family: 'Prata', serif;
+}
+/* Button pr text set nahi ho rha jab padding vagera daal rhe 
+Reason :Anchor links (a elements) are inline elements, they can't have paddings. Making them inline-block must work.
+*/
+#insgtbutton
+{
+    
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+   
+}
+#menubar
+{
+    display:none;
+}
+#cutbtn
+{
+    display:none;
+}
+
+/******** BODY 1*********** */
+#body1{
+    color:white;
+    margin-top:70px;
+    width:50vw;
+    padding-left:10vw;
+    padding-right:35vw;
+    /* giving padding in vw will make site quite responsive */
+  
+}
+#body1heading
+{
+    margin:0px 0px;
+     font-family: 'Prata', serif; 
+     font-weight: 400;
+     font-size:47px;
+ 
+     
+     
+}
+#body1para
+{
+    margin:0px 0px;
+    width: 80%;
+    
+    color:gray;
+    font-size: 15px;
+    font-family:'Inter', sans-serif;
+    
+    /* text-align: justify; */
+}
+
+/* *********COMPANIES LOGO******** */
+
+#companiesLogo
+{
+   padding:60px 6vw;
+   display:flex;
+   justify-content: space-around;
+   flex-wrap:wrap;
+   
+ 
+}
+.complogindi{
+    padding-top:30px;
+    padding-left:15px
+}
+.complogindi:hover
+{
+    transform:scale(1.3);
+    transition: ease-in-out;
+    transition-duration: 500ms;
+}
+#firstLogo
+{
+    padding-left:18px;
+  /* above padding-left ne isliye affect nahi kya q ki 18 is bigger than 15 .SO VO COLLAPSE KR GYA. */
+}
+#lastLogo
+{
+    padding-right:20px;
+   
+}
+
+/****** SITE INTRODUCTION*********** */
+
+#siteIntro
+{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    /* flex-wrap:wrap; */
+    margin-top: 50px;
+    margin-bottom:70px;
+    padding-left:10vw;
+    padding-right:10vw;
+   
+    
+}
+.siteIntroinside
+{
+/* keypoint 1.1. for img division*/
+width:37vw;
+
+}
+
+.introimg
+{
+    /* Transform kaam krta hai forground image par bhi */
+    /* transform: scale(0.7); */
+
+    /* keypoint1.2 for img div */
+    width:100%; 
+       
+}
+.introimg:hover
+{
+    transform:scale(1.1);
+    transition: ease-in-out;
+    transition-duration: 500ms;
+}
+.siteintroH
+{
+    font-weight:300;
+    font-size:30px;
+    margin-bottom:0px;
+    /* width:30rem; */
+    margin-right:0px;
+}
+.siteintroP
+{
+    font-size:15px;
+    
+}
+
+/********* CO-FOUNDER PART********** */
+
+#coFounderDet
+{
+    padding:40px 10vw 40px 10vw;
+    /* padding-left:10vw;
+    padding-right:10vw;
+    padding */
+    color:white;
+    column-count: 2;
+    background-color:darkslategrey;
+    column-gap: 60px;
+}
+#founderheadH
+{
+    /* column-span: all; */
+    width:37vw;
+    font-weight:300;
+    font-size:30px;
+    
+    margin:0px 0px;  
+}
+#founderheadP
+{
+ font-size:15px;
+ color:lightgrey;
+
+}
+
+/******** INTERERSTED PART****** */
+#interestedPart
+{
+    padding:60px 10vw 60px 10vw;
+    /* padding-left:10vw;
+    padding-right:10vw;
+    padding */
+    color:white;
+    width:35vw;
+    
+}
+/* #interestedPart
+{
+    transform:scale(1.1);
+} */
+#interestedheadH
+{
+   
+    font-weight:300;
+    font-size:30px;
+    
+    margin:0px 0px; 
+}
+#interestedheadP
+{
+    font-size:15px;
+    color:lightgrey;
+}
+
+/*******FOOTER SECTION********/
+
+#footer
+{
+    display: flex;
+    /* width: 100vw; */
+    align-items: baseline;
+    /* justify-content responsible for horizontal alignment */
+    justify-content: space-between;
+    padding-left:10vw;
+    padding-right:10vw;
+    color:white;
+    height:50px;
+    background-color: darkslategray;
+
+}
+
+#footlogo1
+{
+    margin:0px 0px;
+    padding: 10px 0px;
+    font-family: 'Prata', serif; 
+    color:white;
+    /* align-items: center;
+    justify-content: center; */
+    
+    
+}
+
+.footnav{
+    display:inline-block;
+    justify-content: space-around;
+    text-decoration: none;
+    
+    padding : 10px 10px;  
+}
+
+
+/* MEDIA QUERY FOR TABLETS */
+
+@media screen and (max-width:950px) {
+
+    /**** FOR BODY PART****/
+    #body1{
+        color:white;
+        margin-top:70px;
+       width:80vw;
+        padding-left:10vw;
+        padding-right:10vw;
+        
+        /* giving padding in vw will make site quite responsive */
+      
+    }
+   
+    /* *****FOR IMG PART****** */
+  
+#siteIntro
+{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    flex-wrap:wrap;
+    margin-top: 60px;
+    margin-bottom:60px;
+    padding-left:10vw;
+    padding-right:10vw;
+   
+    
+}
+.siteIntroinside
+{
+/* keypoint 1.1. for img division*/
+width:80vw;
+
+}
+
+/* *****COFOUNDER PART******* */
+
+#coFounderDet
+{
+    padding:40px 10vw 40px 10vw;
+    /* padding-left:10vw;
+    padding-right:10vw;
+    padding */
+    color:white;
+   column-count: 1;
+    background-color:darkslategrey;
+   
+}
+#founderheadH
+{
+    /* column-span: all; */
+    width:70vw;
+    font-weight:300;
+    font-size:30px;
+    
+    margin:0px 0px;  
+}
+/******* FOR INTERESTED PART****** */
+#interestedPart
+{
+    margin:0px 0px; 
+    padding:60px 10vw 60px 10vw;
+   width:70vw;
+    color:white; 
+     
+    
+}
+
+/*****HIDING CONTENT OF HEADER BAR******* */
+
+#Head
+{
+    display: block;
+}
+.material-symbols-outlined
+{
+    /* KEYPOINT */
+     font-size: 34px !important; 
+}
+#headlogo1
+{
+    align-self: flex-start;
+}
+
+
+.navb{
+    display: block;
+    text-align: center;
+    width:70vw;
+   
+    margin-top:70px;
+    margin-right:10vw;
+    
+}
+.navbdiv{
+    /* display:none; */
+    display: block;
+ 
+   
+   
+}
+div#mylinks
+{
+    display:none;
+}
+.navbdiv a
+{
+padding:14px 16px;
+display:block;
+}
+.navbdiv a#menubar{
+    background-color:black;
+    display:block;
+    position:relative;
+    right: 0;
+    top: 0;
+}
+#gtbutton{
+    display: none;
+    
+}
+#headlogo1
+{
+    margin: 0px 0px;
+    font-family: 'Prata', serif; 
+    color:white;
+    font-size:30px;  
+    
+}
+#menubar
+{
+    display: block;
+    position:absolute;
+    top:35px;
+    right:90px;
+}
+a#cutbtn
+{
+    display: none;
+    position:absolute;
+    top:85px;
+    left:90px;
+}
+
+
+
+}
+
+/* for phone screen */
+@media  screen and (max-width:470px) {
+
+    .material-symbols-outlined
+{
+    /* KEYPOINT */
+     font-size: 30px !important; 
+}
+#headlogo1
+{
+    align-self: flex-start;
+    font-size: 24px;
+}
+
+div#mylinks 
+{
+
+    display:none;
+   
+    
+}
+#menubar
+{
+    display: block;
+    position:absolute;
+    top:35px;
+    right:50px;
+
+   
+   
+}
+a#cutbtn
+{
+    display: none;
+    position:absolute;
+    top:85px;
+    left:50px;
+}
+}
